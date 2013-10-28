@@ -2,7 +2,7 @@
 //  ApplicationSettingsViewController.m
 //  ApplicationSettings
 //
-//  Created by Wei-Meng Lee on 3/8/11.
+//  Created by Abimael Medina on 3/8/11.
 //  Copyright 2011 __MyCompanyName__. All rights reserved.
 //
 
@@ -23,9 +23,9 @@ NSString *favoriteColorSelected;
 - (void)viewDidLoad {
     //---create an array containing the colors values---
     colors = [[NSMutableArray alloc] init];
-    [colors addObject:@"Red"];
+    [colors addObject:@"Black"];
     [colors addObject:@"Green"];
-    [colors addObject:@"Blue"];
+    [colors addObject:@"White"];
     [super viewDidLoad];
 }
 
